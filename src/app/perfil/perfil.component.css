@@ -1,0 +1,31 @@
+.container{
+        background-color: rgb(224, 254, 255);
+        color: rgb(0, 0, 0);
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #000a74;
+        border-radius: 15px;
+        margin-top: 100px;
+}
+.menu{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #000a74;
+  }
